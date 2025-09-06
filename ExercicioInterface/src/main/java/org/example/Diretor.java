@@ -15,7 +15,7 @@ public class Diretor extends Cargo_de_confianca implements Contratacao{
                 ", salario_base=" + salario_base +
                 ", data_de_nascimento='" + data_de_nascimento + '\'' +
                 ", data_de_contratacao='" + data_de_contratacao + '\'' +
-                ", Salario_final: " + Bonificacao.DIRETOR.getValor()+
+                ", Salario_final: " + Bonificacao.DIRETOR.getValor() * salario_base+
                 '}';
     }
 
@@ -26,11 +26,11 @@ public class Diretor extends Cargo_de_confianca implements Contratacao{
 
     @Override
     public void admitir(Funcionario funcionario) {
-
+        System.out.println("Contratar Funcionario");
     }
 
     @Override
     public void demitir(Funcionario funcionario) {
-
+        System.out.println("Demitir Funcionario");
     }
 }

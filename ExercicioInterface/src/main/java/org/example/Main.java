@@ -11,5 +11,7 @@ public class Main {
         System.out.println(gerente.toString());
         System.out.println(diretor.toString());
         System.out.println(motoboy.toString());
+
+        diretor.admitir(motoboy);
     }
 }

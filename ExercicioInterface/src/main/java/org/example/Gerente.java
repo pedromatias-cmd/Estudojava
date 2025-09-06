@@ -15,7 +15,7 @@ public class Gerente extends Cargo_de_confianca{
                 ", salario_base=" + salario_base +
                 ", data_de_nascimento='" + data_de_nascimento + '\'' +
                 ", data_de_contratacao='" + data_de_contratacao + '\'' +
-                ", Salario_Final: "+ Bonificacao.GERENTE.getValor() +
+                ", Salario_Final: "+ Bonificacao.GERENTE.getValor() *salario_base+
                 '}';
     }
 
