@@ -2,10 +2,10 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        cliente cliente1 = new cliente("juninho",12,
-                new PET("sakura",5,"viralata","pequeno", "grilo"));
+        PET pet1 = new PET("bilu", 3, "chiuauá", "pequeno", "golden frango");
+        PET pet2 = new PET("foquinha", 14, "koqueinspain", "médio", "de tudo");
 
-        cliente cliente2 = new cliente("erinaldo", 35,
-                new PET("mamamia", 4, "wolksvagem","grande","costela de porco"));
+        System.out.println("Dados do Pet 1: " + pet1.toString() + "\n");
+        System.out.println("Dados do Pet 2 : " + pet2.toString() + "\n");
     }
 }
